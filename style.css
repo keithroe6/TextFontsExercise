@@ -1,0 +1,73 @@
+ /*Style sheet for Text and Fonts Exercise.  */
+/* 2. in root element set to Orbitron */
+/* Bonus 1. */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap');
+
+ :root {
+    font-family: 'Orbitron', sans-serif;
+ }
+
+ /* Bonus 6. Change text color */
+ /* Bonus 7 set background-position and background-size */
+body{
+    color: rgb(255,255,255,.6);
+    background-image: url(starTrek.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ /* Bonus  */
+
+ /* 3. Make all span elements bold */
+ span{
+    font-weight: bold;
+ }
+
+ /* 4. 5. 6. 7. and 8. h1 stylings*/
+ h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+ }
+
+ /* 9. set series movies to 20px size. */
+ #series-movies{
+    font-size: 20px;
+ }
+
+ /* 10. set h2 elements to 40 px using em */
+h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* 11. double spacing between li elements */
+/* Bonus 4. set text size for li elements to 16px using rem */
+li{
+    line-height: 2;
+    font-size: 1rem;
+
+}
+
+/* 12. text size for characters to 18px */
+#characters{
+    font-size: 18px;
+}
+
+/*Bonus 3 center h2, h3 and h4 elements  */
+h3{
+    text-align: center;
+}
+
+/* letter spacing to 15 pixels */
+/* Bonus 2 set font to Press Start 2P */
+h4{
+    letter-spacing: 15px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+
+
+
